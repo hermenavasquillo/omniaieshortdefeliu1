@@ -1,0 +1,16 @@
+
+{
+  "name": "OMNIA",
+  "short_name": "OMNIA",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#e6e6e6",
+  "theme_color": "#002f5a",
+  "icons": [
+    {
+      "src": "logo-omnia.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

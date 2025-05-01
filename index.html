@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OMNIA</title>
+    <link rel="icon" href="logo-omnia.png">
+    <link rel="apple-touch-icon" href="logo-omnia.png">
+    <link rel="manifest" href="manifest.webmanifest">
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #e6e6e6;
+            margin: 0;
+            padding: 40px 10px;
+            display: flex;
+            justify-content: center;
+        }
+        .iphone-frame {
+            background-color: #ffffff;
+            border: 16px solid #000;
+            border-radius: 50px;
+            padding: 30px 20px;
+            box-shadow: 0 0 30px rgba(0,0,0,0.2);
+            max-width: 400px;
+            width: 100%;
+        }
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .logo img {
+            height: 120px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .app {
+            background: #002f5a;
+            border-radius: 20px;
+            padding: 20px;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .app img {
+            width: 48px;
+            height: 48px;
+            margin-bottom: 0px;
+        }
+        .disabled {
+            background: #cccccc;
+            cursor: default;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .footer img {
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="iphone-frame">
+        <div class="logo">
+            <img src="logo-omnia.png" alt="Logo OMNIA">
+        </div>
+        <div class="grid">
+            <a class="app" href="https://apps.powerapps.com/play/e/default-73dd1114-ef7d-40c7-8669-569d32e7e29b/a/d8d2ec72-f8d3-4397-8a5a-43ba88aa9b88?tenantId=73dd1114-ef7d-40c7-8669-569d32e7e29b&hint=3ab6f0af-92ff-4fad-9ba8-91a742aba6d6&sourcetime=1746130980160" target="_blank">
+                <img src="icon-guardies.png" alt="Guàrdies">
+                <div>Guàrdies</div>
+            </a>
+            <a class="app" href="https://apps.powerapps.com/play/e/default-73dd1114-ef7d-40c7-8669-569d32e7e29b/a/a7b42509-f62e-401f-b87e-87492c812940?tenantId=73dd1114-ef7d-40c7-8669-569d32e7e29b&hint=28d73a30-3b57-4995-91ea-4af8b826d9dd&sourcetime=1746131505376" target="_blank">
+                <img src="icon-aseos.png" alt="Aseos">
+                <div>Aseos</div>
+            </a>
+            <div class="app disabled">
+                <img src="icon-future.png" alt="Futura app">
+                <div>Futura app</div>
+            </div>
+            <div class="app disabled">
+                <img src="icon-future.png" alt="Futura app">
+                <div>Futura app</div>
+            </div>
+        </div>
+        <div class="footer">
+            <img src="logo-centre.png" alt="IES Hort de Feliu">
+        </div>
+    </div>
+</body>
+</html>
