@@ -12,5 +12,12 @@
       "sizes": "192x192",
       "type": "image/png"
     }
+
+  {
+    "src": "favicon.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }
+
   ]
 }
