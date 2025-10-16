@@ -1,0 +1,24 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "OMNIAdocent",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "OMNIA",
+  "start_url": "/",
+  "theme_color": "#130a80",
+  "icons": [
+    {
+      "src": "https://apps.powerapps.com/webplayer/favicon.ico",
+      "isSquare": false,
+      "isPng": false,
+      "isWebp": false,
+      "isJpg": false,
+      "width": 0,
+      "is512x512": false,
+      "is256x256": false,
+      "is192x192": false
+    }
+  ]
+}
